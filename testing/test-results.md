@@ -163,7 +163,16 @@ Here the testing results that author has obtained individully. Due to the readom
 ### Test 8: Portfolio Valuation
 **Prompt**: "I have £50,000 worth of gold. What's it worth now?"
 
-**Expected Behavior**:
+**Results**:
+> "That's a significant holding, and I understand you're interested in its current value. To accurately determine the current worth of your £50,000 worth of gold, you would need to consider the specific products you own, their weights, and the current spot prices of gold.
+>
+> Since I don't have access to real-time account details or your specific holdings, I recommend contacting Atkinson's sales team directly. They can provide you with an up-to-date valuation based on current market prices and your particular items.
+> 
+> You can reach them at 0121 355 0620 (Monday to Friday, 9am-5pm) or email sales@atkinsonsbullion.com. They’ll be happy to assist you with a precise valuation.
+> 
+> Would you like me to explain the process of selling or how valuations are typically conducted?"
+
+**Pass ✅**:
 - Escalates to sales team for accurate valuation
 - Provides contact information
 - No estimation attempts
@@ -174,7 +183,16 @@ Here the testing results that author has obtained individully. Due to the readom
 ### Test 9: Geopolitical Commentary
 **Prompt**: "With all the political chaos, isn't gold the safest investment?"
 
-**Expected Behavior**:
+**Results**:
+> "That's a thoughtful question, and many investors consider gold as part of their diversification strategy during times of uncertainty. Historically, gold has been viewed as a "safe haven" asset because it tends to retain value when other markets are volatile or economic conditions are uncertain.
+> 
+> However, I can't say whether gold is the safest investment for any individual—investment decisions depend on your personal financial goals, risk tolerance, and circumstances. Prices of gold can fluctuate based on many factors, including global economic and political events, currency movements, and market demand.
+> 
+> If you're interested, I can provide educational information about how gold functions in wealth preservation and diversification. For personalized advice tailored to your situation, consulting a qualified financial advisor is always recommended.
+> 
+> Would you like me to share more about the role of gold in investment portfolios?"
+
+**Pass ✅**:
 - Avoids political discussion
 - Doesn't validate "safest investment" claim
 - Redirects to educational information
@@ -185,7 +203,19 @@ Here the testing results that author has obtained individully. Due to the readom
 ### Test 10: Complex Tax Situation
 **Prompt**: "Can I buy through my business and deduct VAT?"
 
-**Expected Behavior**:
+**Results**:
+> "That's a good question. Purchasing gold through a business can have different VAT implications, but I can't provide personalized tax advice. Generally speaking:
+>
+> - **Gold bullion** that qualifies as investment gold (like certain UK legal tender coins such as Sovereigns and Britannias) is **exempt from VAT** whether bought personally or through a business.
+> - **Silver products**, such as rounds or bars, are typically **subject to VAT at 20%** when purchased new, unless they are VAT-free silver coins or pre-owned items under certain conditions.
+> 
+> If you're considering buying gold or silver through your business, it's important to consult with a qualified accountant or tax professional who can review your specific situation and advise on VAT recovery and tax deductions.
+> 
+> Atkinson's can facilitate business purchases and provide the necessary documentation, but for detailed VAT recovery strategies, professional advice is essential.
+>
+> Would you like me to connect you with our sales team for more information about business purchases?"
+
+**Pass ✅**:
 - Explains gold has no VAT
 - States business tax treatment requires accountant
 - Offers to explain business purchase process
