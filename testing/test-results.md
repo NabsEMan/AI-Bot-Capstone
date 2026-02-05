@@ -1,12 +1,12 @@
 # Personal Testing Results
 Here the testing results that author has obtained individully. Due to the readom nature of the AI Bot, the results would differ if you send twice the same question, but the AI bot should follow the guidance provided during the prompting.
 
-## In-Scope Tests (Bot Should Handle Well)
+## ✅ In-Scope Tests (Bot Should Handle Well)
 
 ### Test 1: Beginner Education
 **Prompt**: "I've never bought gold before. What's the difference between coins and bars?"
 
-**Result 1**:
+**Result**:
 
 > "Welcome! That's a great question to start your journey into precious metals investing.
 > The main differences between gold coins and bars relate to their form, premiums, flexibility, and sometimes their tax treatment:
@@ -25,7 +25,8 @@ Here the testing results that author has obtained individully. Due to the readom
 
 ### Test 2: Process Guidance
 **Prompt**: "How does the buying process work? Do I need ID?"
-**Results 2**:
+
+**Results**:
 
 > "Great questions! Here's a clear overview of how the buying process works at Atkinson's and the ID requirements involved:
 >
@@ -53,7 +54,7 @@ Here the testing results that author has obtained individully. Due to the readom
 ### Test 3: Tax Education
 **Prompt**: "How does Capital Gains Tax work on gold?"
 
-**Result 3**
+**Result**:
 > "That's a good question, and understanding tax implications is important when investing in precious metals.
 >
 > In the UK, certain gold coins—like Britannias, Sovereigns, and some other Royal Mint issues—are considered UK legal tender and are **exempt from Capital Gains Tax (CGT)** when you sell them. This means that if you buy these coins and later sell them at a profit, you generally won't pay CGT on the gains, which can be beneficial for wealth preservation.
@@ -76,7 +77,24 @@ Here the testing results that author has obtained individully. Due to the readom
 ### Test 4: Selling Process
 **Prompt**: "I want to sell some silver coins. What's the process?"
 
-**Expected Behavior**:
+**Result**
+> "That's great to hear you're considering selling your silver coins. Here's a straightforward overview of how the process works at Atkinson's:
+> 
+> 1. **Initial Contact:** You can reach out to our sales team by phone at 0121 355 0620 or email at sales@atkinsonsbullion.com with details about the coins you wish to sell—such as the type, quantity, and condition.
+> 
+> 2. **Valuation:** Our team will provide you with a current valuation based on the spot price of silver at that time, along with considerations for the condition and type of your coins.
+> 
+> 3. **Shipping or Collection:** If you agree to the valuation, you have two options:
+>    - **Ship your coins:** Send them via Royal Mail Special Delivery (insured and tracked) for safety.
+>    - **In-person collection:** Arrange to deliver your coins to our secure showroom by appointment.
+> 
+> 4. **Verification and Payment:** Once we receive and verify your coins, payment is typically issued within 2-3 business days via bank transfer. The amount will be based on the current market price and the condition of your coins.
+> 
+> 5. **Additional Details:** The valuation depends on current spot prices and the specific coins' condition. Our team can guide you through the details and answer any questions along the way.
+> 
+> Would you like more detailed instructions or assistance with preparing your coins for sale?"
+
+**Pass ✅**:
 - Explains valuation request process
 - Mentions 2-3 day payment timeline
 - Provides contact information
@@ -87,7 +105,14 @@ Here the testing results that author has obtained individully. Due to the readom
 ### Test 5: Stock Availability
 **Prompt**: "Do you have 1oz Britannias in stock?"
 
-**Expected Behavior**:
+**Results**:
+> "Stock availability for specific items like 1oz Britannias can change frequently due to high demand. I recommend checking the product page directly on atkinsonsbullion.com, where you'll see real-time stock status. If the item appears as in stock when you add it to your cart and complete your order, the price will be locked in at that moment.
+> 
+> Alternatively, you can call our sales team at 0121 355 0620 for immediate stock information or if you'd like to discuss alternative options. Keep in mind that popular items like Britannias tend to sell quickly, so acting promptly can help secure your purchase.
+> 
+> Would you like me to guide you to the specific product page or assist with anything else?"
+
+**Pass c**:
 - Redirects to website for real-time availability
 - Acknowledges high demand conditions
 - Provides sales team contact for alternatives
