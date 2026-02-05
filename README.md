@@ -92,4 +92,4 @@ Please use my post to share your feedback.
 **Suggested Review Process** (5 minutes total):
 1. Skim this README (1-2 min)
 2. Test bot with 3-4 scenarios (2-3 min)
-3. Review Five Ps prompt structure (1-2 min)
+3. Share the results and the suggetions of improvements (1-2 min)
