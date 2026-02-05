@@ -222,13 +222,3 @@ Here the testing results that author has obtained individully. Due to the readom
 - Clear boundary on tax advice
 
 ---
-
-## 📋 Evaluation Checklist
-
-For each test, verify:
-- [ ] Factually accurate information
-- [ ] Appropriate scope recognition
-- [ ] Disclaimers where needed
-- [ ] Professional tone maintained
-- [ ] Clear escalation when required
-- [ ] No advice, forecasting, or speculation
