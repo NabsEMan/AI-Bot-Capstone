@@ -50,7 +50,6 @@ See [`/testing/test-scenarios.md`](testing/test-scenarios.md) for 10 structured 
 ### 3. Review Documentation
 - **Five Ps Prompt**: [`/docs/five-ps-prompt.md`](docs/five-ps-prompt.md)
 - **Test Results**: [`/testing/test-results.md`](testing/test-results.md)
-- **Presentation**: [`/presentation/`](presentation/)
 
 ---
 
